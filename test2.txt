@@ -1,0 +1,116 @@
+APTITUDE
+
+1.) Maternal Uncle
+
+2.) Father in law
+
+3.) Sister
+
+4.) Brother
+
+5.) Son in law
+
+6.)X*A+Y
+
+7.) *
+     *
+     *
+     *
+
+8.) 6kms 
+
+9.) West
+
+10.) South-West
+
+11.) West
+
+
+JAVA
+
+1.) public class temp
+{
+          public static void main(String args[])
+	 {
+		int x=1;
+		if((boolean)x==true)
+			System.out.println("True.");
+		else
+			System.out.println("False.");
+	}
+}
+
+Output : Error
+
+2.)class Opr
+{
+	public static void main (String args[])
+	{
+		byte a,b;
+		a=10; b=20;
+		b=assign(a);
+		System.out.println(a+","+b);
+	}
+	public static byte assign(byte a)
+	{
+		a+=100;
+		return a;
+	}
+}
+	
+Output : 
+
+3.) * Because they can be accessed without creating an object.     
+
+4.) Write a program to reverse array elements
+	 Input: {10,45,7,9,2}
+	 Output: {2,9,7,45,10}
+
+	def reverse_array:
+    	input_array = [10, 45, 7, 9, 2]
+	reversed_array = reverse_array(input_array)
+	print(reversed_array)
+
+5.) Write a program to arrange array elements in descending order and remove the duplicates
+     Input: {2,5,4,8,2,3,6,2}
+     Output: {8,6,5,4,3,2,1}
+
+public class DescendingOrder {
+    public static void main(String[] args) {
+        int[] arr = {2, 5, 4, 8, 2, 3, 6, 2};
+        System.out.println("Sort array in descending order:");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+6.) this -> This keyword is used to refer object
+     this() -> This keyword is used to call constructor
+
+7.)Program to swap a two number without using 3rd variable
+
+public class NumberSwap {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        
+        System.out.println("After swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
+
+	
+
+
+
+ 
